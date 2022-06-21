@@ -7,6 +7,6 @@ var roter = require('./route');
 var app= express();
 app.use('/api', route);
 
-app.listen(process.env.PORT,()=>{
+app.listen(3000,()=>{
     console.log("server Started");
 })
