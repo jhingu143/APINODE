@@ -7,6 +7,6 @@ var route = require('./route');
 var app= express();
 app.use('/api', route);
 
-app.listen(3000,()=>{
+app.listen(process.env.PORT,()=>{
     console.log("server Started");
 })
