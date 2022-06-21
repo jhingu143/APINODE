@@ -1,7 +1,7 @@
 var mongoose = require('mongoose');
 var express = require('express');
 var bodyparse =require('body-parser');
-var roter = require('./route');
+var route = require('./route');
 
 
 var app= express();
